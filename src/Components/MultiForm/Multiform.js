@@ -47,7 +47,7 @@ export default function MultiForm() {
         <div className="container-multiform">
             <Indicator formIndex={formIndex}/>
 
-            {elements.map((item, index) => {
+            {elements.forEach((item, index) => {
                 if((index + 1) === formIndex){
                     return elements[index]
                 }
