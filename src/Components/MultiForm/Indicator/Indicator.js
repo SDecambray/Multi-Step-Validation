@@ -30,19 +30,19 @@ export default function Indicator({formIndex}) {
 
       <div className="container-img">
           <div className="bloc-img">
-              <img src={healthy} />
+              <img src={healthy} alt="img healthy"/>
           </div>
           <div className="bloc-img">
-              <img src={love} />
+              <img src={love} alt="img love"/>
           </div>
           <div className="bloc-img">
-              <img src={allergy} />
+              <img src={allergy} alt="img allergy"/>
           </div>
           <div className="bloc-img">
-              <img src={diet} />
+              <img src={diet} alt="img diet"/>
           </div>
           <div className="bloc-img">
-              <img src={thumb} />
+              <img src={thumb} alt="img thumb"/>
           </div>
       </div>
     </div>
